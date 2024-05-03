@@ -41,3 +41,14 @@ print(arrVariable)
 arrVariable.insert(1,10)#[1,10,3,2,4]
 arrVariable.sort()
 print(arrVariable)
+
+stackVar =[]
+#adding to stack
+stackVar.append(4)
+stackVar.append(2)
+stackVar.append(9)
+stackVar.append(1)# 4,2,9,1
+print('After appending', stackVar)
+stackVar.pop()
+print('After popping', stackVar)
+print('removed elements:', elements)
